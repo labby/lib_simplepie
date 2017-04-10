@@ -4,7 +4,7 @@
  *  @module      	Library SimplePie
  *  @version        see info.php of this module
  *  @author         cms-lab
- *  @copyright      2010-2017 cms-lab (http://cms-lab.com)
+ *  @copyright      2010-2017 cms-lab
  *  @license        see license included in the package
  *  @license terms  see info.php of this addon
  *  @platform       see info.php of this addon
@@ -29,6 +29,11 @@ if (defined('LEPTON_PATH')) {
 }
 // end include class.secure.php
 
+// Checking Requirements
+$PRECHECK['VERSION']        = array(
+    'VERSION' => '2.3.0',
+    'OPERATOR' => '>='
+);
 
 
 ?>

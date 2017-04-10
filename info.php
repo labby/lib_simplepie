@@ -34,11 +34,11 @@ if (defined('LEPTON_PATH')) {
 $module_directory = 'lib_simplepie';
 $module_name      = 'SimplePie Library';
 $module_function  = 'library';
-$module_version   = '1.4.3.0';
+$module_version   = '1.4.3.1';
 $module_platform  = '2.x';
 $module_delete	  =  true;
 $module_author    = 'cms-lab';
-$module_license   = '<a href="/library/LICENSE.txt" target="_blank">Custom License</a>';
+$module_license   = '<a href="http:cms-lab.com/_documentation/lib_simplepie/license.html" target="_blank">Addon License</a> <br /> <a href="http:cms-lab.com/_documentation/lib_simplepie/readme.txt" target="_blank"> Read me</a>';
 $module_license_terms   = '-';
 $module_description = 'This module installs basic files <a href="http://simplepie.org/" target="_blank">Simple Pie</a>.';
 $module_guid      = '26b3891e-0cf1-49c5-87ad-18708dcd7439';

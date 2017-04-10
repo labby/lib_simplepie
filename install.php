@@ -29,7 +29,25 @@ if (defined('LEPTON_PATH')) {
 }
 // end include class.secure.php
 
+/**
+ *	install droplets
+ *
+ */ 
+if (!function_exists('droplet_install')) {
+    include_once LEPTON_PATH.'/modules/droplets/functions.php';
+}
 
+if (file_exists(LEPTON_PATH .'modules/lib_simplepie/install/droplet_simple_pie_list.zip')) {
+droplet_install(LEPTON_PATH .'modules/lib_simplepie/install/droplet_simple_pie_list.zip', LEPTON_PATH . '/temp/unzip/');
+droplet_install(LEPTON_PATH .'modules/lib_simplepie/install/droplet_simple_pie_detail.zip', LEPTON_PATH . '/temp/unzip/');
+}	
 
+/**
+ *	remove install directory
+ *
+ */ 
+if (file_exists(LEPTON_PATH .'modules/lib_simplepie/install/index.php')) { 
+rm_full_dir(LEPTON_PATH."/modules/lib_simplepie/install");
+}
 
 ?>

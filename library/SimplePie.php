@@ -501,7 +501,7 @@ class SimplePie
 	 * @see SimplePie::enable_cache()
 	 * @access private
 	 */
-	public $cache = false;
+	public $cache = true;
 
 	/**
 	 * @var bool Force SimplePie to fallback to expired cache, if enabled,
