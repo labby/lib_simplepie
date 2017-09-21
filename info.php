@@ -34,7 +34,7 @@ if (defined('LEPTON_PATH')) {
 $module_directory = 'lib_simplepie';
 $module_name      = 'SimplePie Library';
 $module_function  = 'library';
-$module_version   = '1.4.3.1';
+$module_version   = '1.5.0.0';
 $module_platform  = '2.x';
 $module_delete	  =  true;
 $module_author    = 'cms-lab';
