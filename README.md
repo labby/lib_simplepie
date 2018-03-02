@@ -5,7 +5,7 @@ SimplePie is a very fast and easy-to-use feed parser library
 
 #### Requirements
 
-* [LEPTON CMS][1], Version >= 2.3.0
+* [LEPTON CMS][1], Version >= 3.0
 
 
 #### Installation

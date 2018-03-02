@@ -4,7 +4,7 @@
  *  @module      	Library SimplePie
  *  @version        see info.php of this module
  *  @author         cms-lab
- *  @copyright      2010-2017 cms-lab
+ *  @copyright      2010-2018 cms-lab
  *  @license        see license included in the package
  *  @license terms  see info.php of this addon
  *  @platform       see info.php of this addon
@@ -34,11 +34,11 @@ if (defined('LEPTON_PATH')) {
 $module_directory = 'lib_simplepie';
 $module_name      = 'SimplePie Library';
 $module_function  = 'library';
-$module_version   = '1.5.0.0';
-$module_platform  = '2.x';
+$module_version   = '1.5.1.0';
+$module_platform  = '3.x';
 $module_delete	  =  true;
 $module_author    = 'cms-lab';
-$module_license   = '<a href="http://cms-lab.com/_documentation/lib_simplepie/license.html" target="_blank">Addon License</a> <br /> <a href="http://cms-lab.com/_documentation/lib_simplepie/readme.txt" target="_blank"> Read me</a>';
+$module_license   = '<a href="http://cms-lab.com/_documentation/lib-simplepie/license.php" target="_blank">Addon License</a> <br /> <a href="http://cms-lab.com/_documentation/lib-simplepie/readme.php" target="_blank"> Read me</a>';
 $module_license_terms   = '-';
 $module_description = 'This module installs basic files <a href="http://simplepie.org/" target="_blank">Simple Pie</a>.';
 $module_guid      = '26b3891e-0cf1-49c5-87ad-18708dcd7439';
